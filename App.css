@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Cabin&display=swap&subset=latin-ext,vietnamese');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    color: white;
+    margin-right: 10px
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: #f9ebc4;
+    line-height: 3;
+}
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 5px;
+    height: 60%;
+    transform: rotate(90deg);
+}
+ol{
+    display: flex;
+}
+li{
+    margin-left: 30px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(246,133,133,1) 16.3%, rgba(172,131,241,1) 90% );
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info h2{
+    position: absolute;
+    top: 15%;
+    width: 90%;
+    text-align: center;
+}
+.info p{
+    position: absolute;
+    top: 55%;
+    width: 90%;
+    text-align: center;
+    font-family: sans-serif;
+}
+.text{
+    position: relative;
+    display: flex;
+    background: #f9ebc4;
+    width: 50%;
+    height: 20vh;
+    justify-content: center;
+    top: 95px;
+    opacity: .7;
+    border-radius: 20px; 
+}
+.men{
+    display: flex;
+    justify-content: center;
+    background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+    height: 49vh;
+}
+footer{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    background: #483d3c;
+    padding: 3%;
+}
+.connect{
+    display: flex;
+}
+footer p{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: white;
+    margin-right: 10px;
+}
+hr{
+    margin-right: 10px;
+}
+.icon-f{
+    color: #ccc;
+    display: flex;
+}
+.fab{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.fab:nth-child(1){
+    margin-left: 10px;
+}
+section{
+    position: relative;
+    background: #5d5d5d;
+    display: flex;
+    justify-content: center;
+}
+section p{
+    font-size: 13px;
+}
+@media screen and (max-width: 700px) {
+    /*ol,li{
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+    }*/
+    .info h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
